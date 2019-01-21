@@ -1,0 +1,61 @@
+#:kivy 1.1.0
+
+<Root>:
+    StackLayout:
+
+
+        Image:
+            id: mechimage
+            source: root.source
+            size_hint:1, .9
+            background_color: (0,0,0,0)
+            opacity: root.image_opacity
+            canvas.before:
+                PushMatrix
+                Rotate:
+                    angle: root.change_angle
+                    origin: self.center
+            canvas.after:
+                PopMatrix
+        Button:
+            id: load_image
+            text: 'Load'
+            size_hint: .1, .1
+            on_release: root.show_load()
+        Button:
+            id: detect_parts
+            text: 'Detect'
+            size_hint:.1, .1
+            on_release: root.detection()
+
+        Button:
+            id: save_button
+            text: "Save"
+            size_hint: .1, .1
+            on_release: root.save()
+        Label:
+            id: detal_counting
+            size_hint: .4, .1
+            font_size: 25
+            text: root.information
+
+<LoadDialog>:
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: "vertical"
+        FileChooserListView:
+            id: filechooser
+            path: root.default_path
+
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                text: "Cancel"
+                on_release: root.cancel()
+
+            Button:
+                text: "Load"
+                on_release: root.load(filechooser.path, filechooser.selection)         
+
