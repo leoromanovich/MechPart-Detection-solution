@@ -13,10 +13,8 @@ Common steps for making decision:
 6. If you want to build your app for Windows or Linux, use .spec file and pyinstaller package.
 
 ### Examples:
-Raw image
-<img src="imgs/125_small.JPG"
-     style="float: left; margin-right: 10px; width: 200; height: 300" />
-After NN processing  
- <img src="imgs/mechparts.png"
-     style="float: left; margin-right: 10px; width: 200; height: 300" />    
+<div> Raw Image</div>
+<img src="imgs/125_small.JPG" width="350">
+<div> After NN processing </div>
+<img src="imgs/mechparts.png" width="350">  
 
