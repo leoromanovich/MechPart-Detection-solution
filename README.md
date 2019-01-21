@@ -14,5 +14,5 @@ Common steps for making decision:
 
 ### Examples:
 ![Raw](imgs/125_small.JPG)
-![After NN processing](img/mechparts.png)
+![After NN processing](imgs/mechparts.png)
 
