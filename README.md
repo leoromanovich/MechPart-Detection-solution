@@ -16,7 +16,7 @@ Common steps for making decision:
 <div> Raw Image</div>
 <img src="imgs/125_cut.jpg" width="700">
 <div> After NN processing </div>
-<img src="imgs/mechparts.png" width="700">
+<img src="imgs/125_det.png" width="700">
 <div> Interface example </div>
 <img src="imgs/interface.png" width="700">
 
