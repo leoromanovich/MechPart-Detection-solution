@@ -1,6 +1,6 @@
 # MechPart-Detection-decision Pet Project
 
-This is the decision for automatic detection, segmentation, and counting of mechanical parts based on [Mask RCNN](https://github.com/matterport/Mask_RCNN) and [Kivy](neural network.
+This is an automatic detection, segmentation, and counting of mechanical parts app based on [Mask RCNN](https://github.com/matterport/Mask_RCNN) and [Kivy](https://kivy.org/#home).
 
 If you want to reimplement this to your own task, please read tutorials for Mask_RCNN. For example [Balloon example](https://github.com/matterport/Mask_RCNN/tree/master/samples/balloon) or [Shapes example](https://github.com/matterport/Mask_RCNN/blob/master/samples/shapes/train_shapes.ipynb). 
 
